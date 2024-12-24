@@ -39,7 +39,7 @@ async function post_data(loc){
           'Accept': 'application/json',
           'Content-Type': "application/json",
       },
-        method: "PUT",
+        method: "POST",
         body: JSON.stringify({"bod": loc})
     })
 }
